@@ -21,6 +21,7 @@ The script can be run in any Python environment that has the required packages i
 To run the script, simply execute the following command:
 
 `python hyundai_accessory_script.py`
+
 The script will then call the Hyundai API and generate accessory files in the Complete folder. The Markup folder will contain accessory files with marked-up prices. The Images folder will contain all the images downloaded from the API.
 
 The script will also compress the Complete, Markup, and Images folders into zip files and upload them to the specified Slack channel.
